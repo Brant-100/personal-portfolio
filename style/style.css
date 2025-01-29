@@ -1,0 +1,45 @@
+/* filepath: /c:/Users/Junior/Documents/GitHub/personal-portfolio/style.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-100 text-gray-900;
+}
+
+header {
+    @apply bg-blue-600 text-white p-4;
+}
+
+header h1 {
+    @apply text-3xl font-bold;
+}
+
+nav a {
+    @apply text-white mx-2 hover:underline;
+}
+
+main {
+    @apply p-4;
+}
+
+section h2 {
+    @apply text-2xl font-semibold mb-2;
+}
+
+section p {
+    @apply mb-4;
+}
+
+ul {
+    @apply list-disc pl-5;
+}
+
+ul li {
+    @apply mb-2;
+}
+
+footer {
+    @apply bg-blue-600 text-white text-center p-4 mt-4;
+}
